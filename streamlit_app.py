@@ -46,74 +46,80 @@ st.markdown("""
     }
     
     .main-header {
-        background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
-        padding: 2rem;
-        border-radius: 15px;
-        margin-bottom: 2rem;
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
         text-align: center;
-        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 4px 20px rgba(79, 172, 254, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
     }
     
     .main-title {
         color: white;
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     }
     
     .main-subtitle {
-        color: rgba(255, 255, 255, 0.9);
-        font-size: 1.2rem;
-        font-weight: 300;
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 0.95rem;
+        font-weight: 400;
     }
     
     .chat-container {
-        background: rgba(255, 255, 255, 0.95);
-        border-radius: 15px;
-        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.98);
+        border-radius: 12px;
+        padding: 1.2rem;
         margin-bottom: 1rem;
-        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        backdrop-filter: blur(4px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(8px);
     }
     
     .user-message {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;
-        padding: 1rem 1.5rem;
-        border-radius: 20px 20px 5px 20px;
-        margin: 1rem 0;
-        max-width: 80%;
+        padding: 0.8rem 1.2rem;
+        border-radius: 18px 18px 4px 18px;
+        margin: 0.8rem 0;
+        max-width: 75%;
         margin-left: auto;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+        font-size: 0.95rem;
     }
     
     .assistant-message {
-        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
         color: white;
-        padding: 1rem 1.5rem;
-        border-radius: 20px 20px 20px 5px;
-        margin: 1rem 0;
-        max-width: 80%;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        padding: 0.8rem 1.2rem;
+        border-radius: 18px 18px 18px 4px;
+        margin: 0.8rem 0;
+        max-width: 75%;
+        box-shadow: 0 2px 10px rgba(79, 172, 254, 0.3);
+        font-size: 0.95rem;
     }
     
     .sidebar-container {
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.12);
+        border-radius: 12px;
         padding: 1rem;
         margin-bottom: 1rem;
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(6px);
     }
     
     .document-item {
-        background: rgba(255, 255, 255, 0.8);
-        padding: 0.8rem;
-        border-radius: 10px;
-        margin: 0.5rem 0;
-        border-left: 4px solid #4facfe;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 0.6rem 0.8rem;
+        border-radius: 8px;
+        margin: 0.4rem 0;
+        border-left: 3px solid #4facfe;
+        font-size: 0.9rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     }
     
     .upload-area {
@@ -141,12 +147,13 @@ st.markdown("""
     }
     
     .metric-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
         color: white;
-        padding: 1rem;
-        border-radius: 10px;
+        padding: 0.8rem;
+        border-radius: 8px;
         text-align: center;
-        margin: 0.5rem 0;
+        margin: 0.4rem 0;
+        box-shadow: 0 2px 8px rgba(79, 172, 254, 0.3);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -230,8 +237,8 @@ def main():
                         # 문서 처리
                         chunks = doc_processor.process_document(file_path)
                         
-                        if len(chunks) > 100:
-                            st.error(f"파일이 너무 큽니다: {len(chunks)}개 청크 (최대 100개)")
+                        if len(chunks) > 400:
+                            st.error(f"파일이 너무 큽니다: {len(chunks)}개 청크 (최대 400개)")
                             os.remove(file_path)
                         else:
                             # 벡터 스토어에 추가
