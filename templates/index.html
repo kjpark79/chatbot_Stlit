@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>밀양시 RAG 챗봇</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.5/dist/purify.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="modern-body">
+    <div class="container-fluid h-100 p-0">
+        <div class="row h-100 g-0">
+            <!-- 사이드바 -->
+            <div class="col-md-3 sidebar-panel">
+                <div class="sidebar-header">
+                    <i class="fas fa-upload sidebar-icon"></i>
+                    <h4 class="sidebar-title">문서 업로드</h4>
+                </div>
+                
+                <div class="upload-section">
+                    <form id="uploadForm" enctype="multipart/form-data">
+                        <div class="file-input-wrapper">
+                            <input type="file" class="file-input" id="fileInput" accept=".txt,.pdf">
+                            <label for="fileInput" class="file-input-label">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span id="fileInputText">파일 선택</span>
+                            </label>
+                        </div>
+                        <div id="selectedFileName" class="selected-file-name" style="display: none;">
+                            <i class="fas fa-file-alt"></i>
+                            <span id="fileName"></span>
+                        </div>
+                        <button type="submit" class="btn btn-upload w-100" id="uploadBtn" disabled>
+                            <i class="fas fa-upload me-2"></i>업로드
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="documents-section">
+                    <div class="section-header">
+                        <i class="fas fa-folder-open me-2"></i>
+                        <h5>업로드된 문서</h5>
+                    </div>
+                    <div id="documentList" class="document-list">
+                        <!-- 문서 목록이 여기에 표시됩니다 -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 채팅 영역 -->
+            <div class="col-md-9 chat-panel">
+                <div class="chat-header">
+                    <div class="header-content">
+                        <div class="header-logo">
+                            <i class="fas fa-city miryang-logo"></i>
+                            <div class="header-text">
+                                <h2 class="chat-title">밀양시 AI 어시스턴트</h2>
+                                <p class="chat-subtitle">문서 기반 지능형 상담 시스템</p>
+                            </div>
+                        </div>
+                        <button id="clearChatBtn" class="btn btn-clear">
+                            <i class="fas fa-broom me-1"></i>대화 초기화
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="chatMessages" class="chat-messages">
+                    <div class="welcome-message">
+                        <div class="welcome-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="welcome-content">
+                            <h5>안녕하세요! 밀양시 AI 어시스턴트입니다.</h5>
+                            <p>문서를 업로드하고 궁금한 내용을 질문해보세요. <br>정확하고 신속한 답변을 제공해드리겠습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input-panel">
+                    <form id="chatForm" class="chat-form">
+                        <div class="input-wrapper">
+                            <input type="text" id="messageInput" class="chat-input" placeholder="질문을 입력하세요...">
+                            <button type="submit" class="btn btn-send">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

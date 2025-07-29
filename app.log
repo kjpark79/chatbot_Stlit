@@ -1,0 +1,825 @@
+2025-07-25 20:33:34,059 - INFO - Starting application...
+2025-07-25 20:33:34,060 - INFO - Directories created/verified
+2025-07-25 20:33:34,060 - INFO - Initializing components...
+2025-07-25 20:33:34,060 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001C123323770>
+2025-07-25 20:33:34,061 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001C123323A10>
+2025-07-25 20:33:34,061 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001C1234E7CB0>
+2025-07-25 20:33:34,061 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:33:35,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:33:35,371 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:33:35,376 - INFO -  * Restarting with stat
+2025-07-25 20:33:37,923 - INFO - Starting application...
+2025-07-25 20:33:37,924 - INFO - Directories created/verified
+2025-07-25 20:33:37,924 - INFO - Initializing components...
+2025-07-25 20:33:37,925 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000207CCE23770>
+2025-07-25 20:33:37,925 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000207CCE23A10>
+2025-07-25 20:33:37,925 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000207CCFE7CB0>
+2025-07-25 20:33:37,926 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:33:37,937 - WARNING -  * Debugger is active!
+2025-07-25 20:33:37,939 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:33:47,465 - INFO - 192.168.0.70 - - [25/Jul/2025 20:33:47] "GET / HTTP/1.1" 200 -
+2025-07-25 20:33:47,619 - INFO - 192.168.0.70 - - [25/Jul/2025 20:33:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 20:33:47,628 - INFO - 192.168.0.70 - - [25/Jul/2025 20:33:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 20:43:52,386 - INFO - Starting application...
+2025-07-25 20:43:52,387 - INFO - Directories created/verified
+2025-07-25 20:43:52,387 - INFO - Initializing components...
+2025-07-25 20:43:52,388 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000021C91683770>
+2025-07-25 20:43:52,388 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000021C91683A10>
+2025-07-25 20:43:52,388 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000021C91847CB0>
+2025-07-25 20:43:52,388 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:43:53,680 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:43:53,681 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:43:53,687 - INFO -  * Restarting with stat
+2025-07-25 20:43:56,065 - INFO - Starting application...
+2025-07-25 20:43:56,067 - INFO - Directories created/verified
+2025-07-25 20:43:56,067 - INFO - Initializing components...
+2025-07-25 20:43:56,068 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000201B4E13770>
+2025-07-25 20:43:56,068 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000201B4E13A10>
+2025-07-25 20:43:56,068 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000201B4FD7CB0>
+2025-07-25 20:43:56,068 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:43:56,084 - WARNING -  * Debugger is active!
+2025-07-25 20:43:56,086 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:44:24,417 - INFO - 192.168.0.70 - - [25/Jul/2025 20:44:24] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 20:44:28,459 - INFO - 192.168.0.70 - - [25/Jul/2025 20:44:28] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 20:44:45,543 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-25 20:44:45,543 - INFO - Request method: POST
+2025-07-25 20:44:45,544 - INFO - Request headers: {'Host': '192.168.0.70:5000', 'Connection': 'keep-alive', 'Content-Length': '4109324', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryRMA5cBcRyJFzpLmF', 'Accept': '*/*', 'Origin': 'http://192.168.0.70:5000', 'Referer': 'http://192.168.0.70:5000/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-25 20:44:45,545 - INFO - Request content length: 4109324
+2025-07-25 20:44:45,601 - INFO - File object received: <FileStorage: '2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf' ('application/pdf')>
+2025-07-25 20:44:45,601 - INFO - File filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 20:44:45,601 - INFO - File content type: application/pdf
+2025-07-25 20:44:45,608 - INFO - Original filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 20:44:45,608 - INFO - Secure filename: 2025web.pdf
+2025-07-25 20:44:45,608 - INFO - File path: documents\2025web.pdf
+2025-07-25 20:44:45,608 - INFO - Starting file save...
+2025-07-25 20:44:45,614 - INFO - File saved successfully
+2025-07-25 20:44:45,615 - INFO - Saved file size: 4109103 bytes
+2025-07-25 20:44:45,615 - INFO - Starting document processing...
+2025-07-25 20:45:15,004 - INFO - Document processing completed. Generated 56 chunks
+2025-07-25 20:45:15,005 - INFO - Adding documents to vector store...
+2025-07-25 20:45:15,007 - ERROR - === UPLOAD ERROR OCCURRED ===
+2025-07-25 20:45:15,008 - ERROR - Error type: OpenAIError
+2025-07-25 20:45:15,009 - ERROR - Error message: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-25 20:45:15,036 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\SynologyDrive\ragchatbot\app.py", line 90, in upload_file
+    vector_store.add_documents(chunks, original_filename)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot\utils\vector_store.py", line 43, in add_documents
+    embeddings = self._get_embeddings(batch_chunks)
+  File "D:\SynologyDrive\ragchatbot\utils\vector_store.py", line 25, in _get_embeddings
+    response = openai.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_utils\_proxy.py", line 20, in __getattr__
+    proxied = self.__get_proxied__()
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_utils\_proxy.py", line 58, in __get_proxied__
+    return self.__load__()
+           ~~~~~~~~~~~~~^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_module_client.py", line 100, in __load__
+    return _load_client().embeddings
+           ~~~~~~~~~~~~^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\__init__.py", line 349, in _load_client
+    _client = _ModuleClient(
+        api_key=api_key,
+    ...<8 lines>...
+        http_client=http_client,
+    )
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_client.py", line 130, in __init__
+    raise OpenAIError(
+        "The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+    )
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+2025-07-25 20:45:15,037 - ERROR - === UPLOAD ERROR END ===
+2025-07-25 20:45:15,042 - INFO - 192.168.0.70 - - [25/Jul/2025 20:45:15] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-25 20:46:03,406 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-25 20:46:03,407 - INFO - Request method: POST
+2025-07-25 20:46:03,408 - INFO - Request headers: {'Host': '192.168.0.70:5000', 'Connection': 'keep-alive', 'Content-Length': '4109324', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryG8fiOt37BTXtrx5H', 'Accept': '*/*', 'Origin': 'http://192.168.0.70:5000', 'Referer': 'http://192.168.0.70:5000/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-25 20:46:03,410 - INFO - Request content length: 4109324
+2025-07-25 20:46:03,458 - INFO - File object received: <FileStorage: '2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf' ('application/pdf')>
+2025-07-25 20:46:03,458 - INFO - File filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 20:46:03,458 - INFO - File content type: application/pdf
+2025-07-25 20:46:03,459 - INFO - Original filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 20:46:03,459 - INFO - Secure filename: 2025web.pdf
+2025-07-25 20:46:03,459 - INFO - File path: documents\2025web.pdf
+2025-07-25 20:46:03,460 - INFO - Starting file save...
+2025-07-25 20:46:03,473 - INFO - File saved successfully
+2025-07-25 20:46:03,474 - INFO - Saved file size: 4109103 bytes
+2025-07-25 20:46:03,475 - INFO - Starting document processing...
+2025-07-25 20:46:34,857 - INFO - Document processing completed. Generated 56 chunks
+2025-07-25 20:46:34,858 - INFO - Adding documents to vector store...
+2025-07-25 20:46:34,859 - ERROR - === UPLOAD ERROR OCCURRED ===
+2025-07-25 20:46:34,860 - ERROR - Error type: OpenAIError
+2025-07-25 20:46:34,860 - ERROR - Error message: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-25 20:46:34,866 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\SynologyDrive\ragchatbot\app.py", line 90, in upload_file
+    vector_store.add_documents(chunks, original_filename)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot\utils\vector_store.py", line 43, in add_documents
+    embeddings = self._get_embeddings(batch_chunks)
+  File "D:\SynologyDrive\ragchatbot\utils\vector_store.py", line 25, in _get_embeddings
+    response = openai.embeddings.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_utils\_proxy.py", line 20, in __getattr__
+    proxied = self.__get_proxied__()
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_utils\_proxy.py", line 58, in __get_proxied__
+    return self.__load__()
+           ~~~~~~~~~~~~~^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_module_client.py", line 100, in __load__
+    return _load_client().embeddings
+           ~~~~~~~~~~~~^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\__init__.py", line 349, in _load_client
+    _client = _ModuleClient(
+        api_key=api_key,
+    ...<8 lines>...
+        http_client=http_client,
+    )
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_client.py", line 130, in __init__
+    raise OpenAIError(
+        "The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+    )
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+2025-07-25 20:46:34,867 - ERROR - === UPLOAD ERROR END ===
+2025-07-25 20:46:34,871 - INFO - 192.168.0.70 - - [25/Jul/2025 20:46:34] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-25 20:50:04,449 - INFO - Starting application...
+2025-07-25 20:50:04,450 - INFO - Directories created/verified
+2025-07-25 20:50:04,450 - INFO - Initializing components...
+2025-07-25 20:50:04,451 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000002657D9F3770>
+2025-07-25 20:50:04,451 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000002657D9F3A10>
+2025-07-25 20:50:04,452 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000002657DBB7CB0>
+2025-07-25 20:50:04,452 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:50:05,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:50:05,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:50:05,749 - INFO -  * Restarting with stat
+2025-07-25 20:50:08,333 - INFO - Starting application...
+2025-07-25 20:50:08,334 - INFO - Directories created/verified
+2025-07-25 20:50:08,334 - INFO - Initializing components...
+2025-07-25 20:50:08,335 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001E0E3EB3770>
+2025-07-25 20:50:08,335 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001E0E3EB3A10>
+2025-07-25 20:50:08,335 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001E0E4077CB0>
+2025-07-25 20:50:08,335 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:50:08,351 - WARNING -  * Debugger is active!
+2025-07-25 20:50:08,354 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:50:09,216 - INFO - 192.168.0.70 - - [25/Jul/2025 20:50:09] "GET / HTTP/1.1" 200 -
+2025-07-25 20:50:09,368 - INFO - 192.168.0.70 - - [25/Jul/2025 20:50:09] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 20:50:09,374 - INFO - 192.168.0.70 - - [25/Jul/2025 20:50:09] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-25 20:50:42,329 - INFO - Starting application...
+2025-07-25 20:50:42,330 - INFO - Directories created/verified
+2025-07-25 20:50:42,330 - INFO - Initializing components...
+2025-07-25 20:50:42,331 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000243A4293770>
+2025-07-25 20:50:42,331 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000243A4293A10>
+2025-07-25 20:50:42,332 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000243A445BCB0>
+2025-07-25 20:50:42,332 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:50:43,633 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:50:43,634 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:50:43,639 - INFO -  * Restarting with stat
+2025-07-25 20:50:46,147 - INFO - Starting application...
+2025-07-25 20:50:46,148 - INFO - Directories created/verified
+2025-07-25 20:50:46,148 - INFO - Initializing components...
+2025-07-25 20:50:46,149 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000257AA013770>
+2025-07-25 20:50:46,149 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000257AA013A10>
+2025-07-25 20:50:46,150 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000257AA1D7CB0>
+2025-07-25 20:50:46,150 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:50:46,163 - WARNING -  * Debugger is active!
+2025-07-25 20:50:46,165 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:50:57,747 - INFO - 127.0.0.1 - - [25/Jul/2025 20:50:57] "GET / HTTP/1.1" 200 -
+2025-07-25 20:50:57,911 - INFO - 127.0.0.1 - - [25/Jul/2025 20:50:57] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 20:50:57,916 - INFO - 127.0.0.1 - - [25/Jul/2025 20:50:57] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-25 20:52:12,815 - INFO - Starting application...
+2025-07-25 20:52:12,817 - INFO - Directories created/verified
+2025-07-25 20:52:12,817 - INFO - Initializing components...
+2025-07-25 20:52:12,818 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000024FAEB33770>
+2025-07-25 20:52:12,818 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000024FAEB33A10>
+2025-07-25 20:52:12,818 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000024FAECF7CB0>
+2025-07-25 20:52:12,819 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:52:14,107 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:52:14,108 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:52:14,113 - INFO -  * Restarting with stat
+2025-07-25 20:52:16,438 - INFO - Starting application...
+2025-07-25 20:52:16,439 - INFO - Directories created/verified
+2025-07-25 20:52:16,439 - INFO - Initializing components...
+2025-07-25 20:52:16,440 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001F32AAC3770>
+2025-07-25 20:52:16,440 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001F32AAC3A10>
+2025-07-25 20:52:16,440 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001F32AC87CB0>
+2025-07-25 20:52:16,441 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:52:16,453 - WARNING -  * Debugger is active!
+2025-07-25 20:52:16,456 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:52:26,166 - INFO - 127.0.0.1 - - [25/Jul/2025 20:52:26] "GET / HTTP/1.1" 200 -
+2025-07-25 20:52:26,297 - INFO - 127.0.0.1 - - [25/Jul/2025 20:52:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 20:52:26,316 - INFO - 127.0.0.1 - - [25/Jul/2025 20:52:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 20:55:56,567 - INFO - Starting application...
+2025-07-25 20:55:56,568 - INFO - Directories created/verified
+2025-07-25 20:55:56,568 - INFO - Initializing components...
+2025-07-25 20:55:56,569 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000013B176C3770>
+2025-07-25 20:55:56,569 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000013B176C3A10>
+2025-07-25 20:55:56,569 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000013B17887CB0>
+2025-07-25 20:55:56,570 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:55:57,865 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:55:57,866 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:55:57,872 - INFO -  * Restarting with stat
+2025-07-25 20:56:00,422 - INFO - Starting application...
+2025-07-25 20:56:00,423 - INFO - Directories created/verified
+2025-07-25 20:56:00,424 - INFO - Initializing components...
+2025-07-25 20:56:00,424 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000025FF5D23770>
+2025-07-25 20:56:00,425 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000025FF5D23A10>
+2025-07-25 20:56:00,425 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000025FF5EE7CB0>
+2025-07-25 20:56:00,426 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:56:00,437 - WARNING -  * Debugger is active!
+2025-07-25 20:56:00,439 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:56:02,892 - INFO - 127.0.0.1 - - [25/Jul/2025 20:56:02] "GET / HTTP/1.1" 200 -
+2025-07-25 20:56:03,038 - INFO - 127.0.0.1 - - [25/Jul/2025 20:56:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 20:56:03,043 - INFO - 127.0.0.1 - - [25/Jul/2025 20:56:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 20:58:05,896 - INFO - Starting application...
+2025-07-25 20:58:05,897 - INFO - Directories created/verified
+2025-07-25 20:58:05,897 - INFO - Initializing components...
+2025-07-25 20:58:05,897 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000023306313770>
+2025-07-25 20:58:05,897 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000023306313A10>
+2025-07-25 20:58:05,898 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000233064D7CB0>
+2025-07-25 20:58:05,898 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:58:05,974 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 20:58:05,974 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 20:58:05,976 - INFO -  * Restarting with stat
+2025-07-25 20:58:08,699 - INFO - Starting application...
+2025-07-25 20:58:08,699 - INFO - Directories created/verified
+2025-07-25 20:58:08,700 - INFO - Initializing components...
+2025-07-25 20:58:08,700 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001CF79E43770>
+2025-07-25 20:58:08,700 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001CF79E43A10>
+2025-07-25 20:58:08,700 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001CF7A007CB0>
+2025-07-25 20:58:08,701 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 20:58:08,717 - WARNING -  * Debugger is active!
+2025-07-25 20:58:08,720 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 20:58:52,326 - INFO - 127.0.0.1 - - [25/Jul/2025 20:58:52] "GET / HTTP/1.1" 200 -
+2025-07-25 20:58:52,586 - INFO - 127.0.0.1 - - [25/Jul/2025 20:58:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 20:58:52,599 - INFO - 127.0.0.1 - - [25/Jul/2025 20:58:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 20:58:52,947 - INFO - 127.0.0.1 - - [25/Jul/2025 20:58:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 21:00:35,814 - INFO - Starting application...
+2025-07-25 21:00:35,815 - INFO - Directories created/verified
+2025-07-25 21:00:35,816 - INFO - Initializing components...
+2025-07-25 21:00:35,816 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000221427DB4D0>
+2025-07-25 21:00:35,817 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000221427DB770>
+2025-07-25 21:00:35,817 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000221429AFA10>
+2025-07-25 21:00:35,817 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:00:35,844 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:00:35,845 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:00:35,847 - INFO -  * Restarting with stat
+2025-07-25 21:00:38,173 - INFO - Starting application...
+2025-07-25 21:00:38,174 - INFO - Directories created/verified
+2025-07-25 21:00:38,174 - INFO - Initializing components...
+2025-07-25 21:00:38,175 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001CB42EDB4D0>
+2025-07-25 21:00:38,175 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001CB42EDB770>
+2025-07-25 21:00:38,175 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001CB430AFA10>
+2025-07-25 21:00:38,175 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:00:38,189 - WARNING -  * Debugger is active!
+2025-07-25 21:00:38,191 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:00:43,819 - INFO - 127.0.0.1 - - [25/Jul/2025 21:00:43] "GET / HTTP/1.1" 200 -
+2025-07-25 21:00:43,940 - INFO - 127.0.0.1 - - [25/Jul/2025 21:00:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:00:43,972 - INFO - 127.0.0.1 - - [25/Jul/2025 21:00:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:01:26,655 - INFO - Starting application...
+2025-07-25 21:01:26,656 - INFO - Directories created/verified
+2025-07-25 21:01:26,656 - INFO - Initializing components...
+2025-07-25 21:01:26,657 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000169451BF4D0>
+2025-07-25 21:01:26,657 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000169451BF770>
+2025-07-25 21:01:26,657 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001694538FA10>
+2025-07-25 21:01:26,658 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:01:26,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:01:26,678 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:01:26,680 - INFO -  * Restarting with stat
+2025-07-25 21:01:29,062 - INFO - Starting application...
+2025-07-25 21:01:29,063 - INFO - Directories created/verified
+2025-07-25 21:01:29,063 - INFO - Initializing components...
+2025-07-25 21:01:29,064 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000002359401F4D0>
+2025-07-25 21:01:29,064 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000002359401F770>
+2025-07-25 21:01:29,064 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000235941EFA10>
+2025-07-25 21:01:29,064 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:01:29,076 - WARNING -  * Debugger is active!
+2025-07-25 21:01:29,078 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:01:53,644 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-25 21:01:53,645 - INFO - Request method: POST
+2025-07-25 21:01:53,645 - INFO - Request headers: {'Host': '127.0.0.1:5000', 'Connection': 'keep-alive', 'Content-Length': '4109324', 'Sec-Ch-Ua-Platform': '"Windows"', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="136", "Whale";v="4", "Not.A/Brand";v="99"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary1byuitJL5oACalAJ', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Origin': 'http://127.0.0.1:5000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:5000/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-25 21:01:53,646 - INFO - Request content length: 4109324
+2025-07-25 21:01:53,718 - INFO - File object received: <FileStorage: '2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf' ('application/pdf')>
+2025-07-25 21:01:53,725 - INFO - File filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 21:01:53,725 - INFO - File content type: application/pdf
+2025-07-25 21:01:53,726 - INFO - Original filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 21:01:53,726 - INFO - Secure filename: 2025web.pdf
+2025-07-25 21:01:53,727 - INFO - File path: documents\2025web.pdf
+2025-07-25 21:01:53,727 - INFO - Starting file save...
+2025-07-25 21:01:53,734 - INFO - File saved successfully
+2025-07-25 21:01:53,735 - INFO - Saved file size: 4109103 bytes
+2025-07-25 21:01:53,735 - INFO - Starting document processing...
+2025-07-25 21:02:25,627 - INFO - Document processing completed. Generated 56 chunks
+2025-07-25 21:02:25,628 - INFO - Adding documents to vector store...
+2025-07-25 21:02:27,962 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-07-25 21:02:27,964 - ERROR - === UPLOAD ERROR OCCURRED ===
+2025-07-25 21:02:27,964 - ERROR - Error type: AuthenticationError
+2025-07-25 21:02:27,964 - ERROR - Error message: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ysk-proj*********************************************************************************************************************************************************m3sA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-25 21:02:28,036 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\SynologyDrive\ragchatbot\app.py", line 90, in upload_file
+    vector_store.add_documents(chunks, original_filename)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot\utils\vector_store.py", line 43, in add_documents
+    embeddings = self._get_embeddings(batch_chunks)
+  File "D:\SynologyDrive\ragchatbot\utils\vector_store.py", line 25, in _get_embeddings
+    response = openai.embeddings.create(
+        input=texts,
+        model="text-embedding-ada-002"
+    )
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\resources\embeddings.py", line 132, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/embeddings",
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        cast_to=CreateEmbeddingResponse,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1256, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1044, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ysk-proj*********************************************************************************************************************************************************m3sA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-07-25 21:02:28,037 - ERROR - === UPLOAD ERROR END ===
+2025-07-25 21:02:28,041 - INFO - 127.0.0.1 - - [25/Jul/2025 21:02:28] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-25 21:07:53,218 - INFO - Starting application...
+2025-07-25 21:07:53,219 - INFO - Directories created/verified
+2025-07-25 21:07:53,219 - INFO - Initializing components...
+2025-07-25 21:07:53,220 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000268D0D3B4D0>
+2025-07-25 21:07:53,220 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000268D0D3B770>
+2025-07-25 21:07:53,220 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000268D0F0FA10>
+2025-07-25 21:07:53,221 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:07:53,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:07:53,247 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:07:53,249 - INFO -  * Restarting with stat
+2025-07-25 21:07:55,649 - INFO - Starting application...
+2025-07-25 21:07:55,649 - INFO - Directories created/verified
+2025-07-25 21:07:55,650 - INFO - Initializing components...
+2025-07-25 21:07:55,650 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001890C61B4D0>
+2025-07-25 21:07:55,651 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001890C61B770>
+2025-07-25 21:07:55,651 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001890C7EFA10>
+2025-07-25 21:07:55,651 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:07:55,667 - WARNING -  * Debugger is active!
+2025-07-25 21:07:55,669 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:08:00,216 - INFO - 127.0.0.1 - - [25/Jul/2025 21:08:00] "GET / HTTP/1.1" 200 -
+2025-07-25 21:08:00,418 - INFO - 127.0.0.1 - - [25/Jul/2025 21:08:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:08:00,421 - INFO - 127.0.0.1 - - [25/Jul/2025 21:08:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:08:00,701 - INFO - 127.0.0.1 - - [25/Jul/2025 21:08:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 21:22:10,802 - INFO - Starting application...
+2025-07-25 21:22:10,803 - INFO - Directories created/verified
+2025-07-25 21:22:10,804 - INFO - Initializing components...
+2025-07-25 21:22:10,804 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000025C1A4FF4D0>
+2025-07-25 21:22:10,804 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000025C1A4FF770>
+2025-07-25 21:22:10,804 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000025C1A6CFA10>
+2025-07-25 21:22:10,804 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:22:10,885 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:22:10,885 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:22:10,887 - INFO -  * Restarting with stat
+2025-07-25 21:22:13,918 - INFO - Starting application...
+2025-07-25 21:22:13,919 - INFO - Directories created/verified
+2025-07-25 21:22:13,919 - INFO - Initializing components...
+2025-07-25 21:22:13,919 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001853143B4D0>
+2025-07-25 21:22:13,919 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001853143B770>
+2025-07-25 21:22:13,919 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001853160FA10>
+2025-07-25 21:22:13,920 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:22:13,931 - WARNING -  * Debugger is active!
+2025-07-25 21:22:13,933 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:22:34,733 - INFO - 127.0.0.1 - - [25/Jul/2025 21:22:34] "GET / HTTP/1.1" 200 -
+2025-07-25 21:22:34,853 - INFO - 127.0.0.1 - - [25/Jul/2025 21:22:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:22:34,869 - INFO - 127.0.0.1 - - [25/Jul/2025 21:22:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:22:35,133 - INFO - 127.0.0.1 - - [25/Jul/2025 21:22:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 21:23:18,265 - INFO - Starting application...
+2025-07-25 21:23:18,276 - INFO - Directories created/verified
+2025-07-25 21:23:18,276 - INFO - Initializing components...
+2025-07-25 21:23:18,277 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001BFC3CBA660>
+2025-07-25 21:23:18,277 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001BFC3CBA900>
+2025-07-25 21:23:18,278 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001BFC3E72BA0>
+2025-07-25 21:23:18,279 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:23:18,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:23:18,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:23:18,405 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-25 21:23:20,907 - INFO - Starting application...
+2025-07-25 21:23:20,908 - INFO - Directories created/verified
+2025-07-25 21:23:20,909 - INFO - Initializing components...
+2025-07-25 21:23:20,909 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000023B86ECA660>
+2025-07-25 21:23:20,909 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000023B86ECA900>
+2025-07-25 21:23:20,910 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000023B87082BA0>
+2025-07-25 21:23:20,910 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:23:20,921 - WARNING -  * Debugger is active!
+2025-07-25 21:23:20,924 - INFO -  * Debugger PIN: 145-618-406
+2025-07-25 21:23:31,828 - INFO - 127.0.0.1 - - [25/Jul/2025 21:23:31] "GET / HTTP/1.1" 200 -
+2025-07-25 21:23:31,927 - INFO - 127.0.0.1 - - [25/Jul/2025 21:23:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:23:31,950 - INFO - 127.0.0.1 - - [25/Jul/2025 21:23:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:24:15,464 - INFO - Starting application...
+2025-07-25 21:24:15,464 - INFO - Directories created/verified
+2025-07-25 21:24:15,465 - INFO - Initializing components...
+2025-07-25 21:24:15,465 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001C61107F4D0>
+2025-07-25 21:24:15,466 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001C61107F770>
+2025-07-25 21:24:15,466 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001C61124FA10>
+2025-07-25 21:24:15,467 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:24:15,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:24:15,492 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:24:15,494 - INFO -  * Restarting with stat
+2025-07-25 21:24:17,721 - INFO - Starting application...
+2025-07-25 21:24:17,722 - INFO - Directories created/verified
+2025-07-25 21:24:17,722 - INFO - Initializing components...
+2025-07-25 21:24:17,722 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000019BF4AFB4D0>
+2025-07-25 21:24:17,723 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000019BF4AFB770>
+2025-07-25 21:24:17,723 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000019BF4CCFA10>
+2025-07-25 21:24:17,724 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:24:17,735 - WARNING -  * Debugger is active!
+2025-07-25 21:24:17,737 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:24:22,212 - INFO - 127.0.0.1 - - [25/Jul/2025 21:24:22] "GET / HTTP/1.1" 200 -
+2025-07-25 21:24:22,350 - INFO - 127.0.0.1 - - [25/Jul/2025 21:24:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:24:22,363 - INFO - 127.0.0.1 - - [25/Jul/2025 21:24:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:27:53,633 - INFO - Starting application...
+2025-07-25 21:27:53,633 - INFO - Directories created/verified
+2025-07-25 21:27:53,634 - INFO - Initializing components...
+2025-07-25 21:27:53,634 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000137BC3AF4D0>
+2025-07-25 21:27:53,634 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000137BC3AF770>
+2025-07-25 21:27:53,635 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000137BC57FA10>
+2025-07-25 21:27:53,635 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:27:53,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:27:53,715 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:27:53,717 - INFO -  * Restarting with stat
+2025-07-25 21:27:56,159 - INFO - Starting application...
+2025-07-25 21:27:56,160 - INFO - Directories created/verified
+2025-07-25 21:27:56,160 - INFO - Initializing components...
+2025-07-25 21:27:56,160 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001584EAFF4D0>
+2025-07-25 21:27:56,161 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001584EAFF770>
+2025-07-25 21:27:56,161 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001584ECCFA10>
+2025-07-25 21:27:56,161 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:27:56,173 - WARNING -  * Debugger is active!
+2025-07-25 21:27:56,176 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:28:11,008 - INFO - 127.0.0.1 - - [25/Jul/2025 21:28:11] "GET / HTTP/1.1" 200 -
+2025-07-25 21:28:11,240 - INFO - 127.0.0.1 - - [25/Jul/2025 21:28:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:28:11,260 - INFO - 127.0.0.1 - - [25/Jul/2025 21:28:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:28:11,638 - INFO - 127.0.0.1 - - [25/Jul/2025 21:28:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 21:28:57,686 - INFO - Starting application...
+2025-07-25 21:28:57,687 - INFO - Directories created/verified
+2025-07-25 21:28:57,687 - INFO - Initializing components...
+2025-07-25 21:28:57,688 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001BFD9E2B4D0>
+2025-07-25 21:28:57,688 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001BFD9E2B770>
+2025-07-25 21:28:57,688 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001BFD9FFFA10>
+2025-07-25 21:28:57,689 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:28:57,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:28:57,712 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:28:57,713 - INFO -  * Restarting with stat
+2025-07-25 21:29:00,256 - INFO - Starting application...
+2025-07-25 21:29:00,257 - INFO - Directories created/verified
+2025-07-25 21:29:00,257 - INFO - Initializing components...
+2025-07-25 21:29:00,258 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000017BD089B4D0>
+2025-07-25 21:29:00,258 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000017BD089B770>
+2025-07-25 21:29:00,258 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000017BD0A73A10>
+2025-07-25 21:29:00,259 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:29:00,272 - WARNING -  * Debugger is active!
+2025-07-25 21:29:00,274 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:29:09,352 - INFO - 127.0.0.1 - - [25/Jul/2025 21:29:09] "GET / HTTP/1.1" 200 -
+2025-07-25 21:29:09,450 - INFO - 127.0.0.1 - - [25/Jul/2025 21:29:09] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-25 21:29:09,452 - INFO - 127.0.0.1 - - [25/Jul/2025 21:29:09] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 21:29:09,843 - INFO - 127.0.0.1 - - [25/Jul/2025 21:29:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 21:55:10,038 - INFO - Starting application...
+2025-07-25 21:55:10,040 - INFO - Directories created/verified
+2025-07-25 21:55:10,041 - INFO - Initializing components...
+2025-07-25 21:55:10,041 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000196558BC380>
+2025-07-25 21:55:10,042 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000019655AF5E50>
+2025-07-25 21:55:10,043 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000019655C929C0>
+2025-07-25 21:55:10,044 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:55:10,426 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.70:5000
+2025-07-25 21:55:10,427 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 21:55:10,429 - INFO -  * Restarting with stat
+2025-07-25 21:55:12,813 - INFO - Starting application...
+2025-07-25 21:55:12,814 - INFO - Directories created/verified
+2025-07-25 21:55:12,814 - INFO - Initializing components...
+2025-07-25 21:55:12,815 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000021D38456EA0>
+2025-07-25 21:55:12,815 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000021D387A2210>
+2025-07-25 21:55:12,815 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000021D386942C0>
+2025-07-25 21:55:12,815 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 21:55:12,828 - WARNING -  * Debugger is active!
+2025-07-25 21:55:12,830 - INFO -  * Debugger PIN: 768-279-628
+2025-07-25 21:55:22,030 - INFO - 127.0.0.1 - - [25/Jul/2025 21:55:22] "GET / HTTP/1.1" 200 -
+2025-07-25 21:55:22,211 - INFO - 127.0.0.1 - - [25/Jul/2025 21:55:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 21:55:22,236 - INFO - 127.0.0.1 - - [25/Jul/2025 21:55:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 21:55:22,574 - INFO - 127.0.0.1 - - [25/Jul/2025 21:55:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 23:29:58,050 - INFO - Starting application...
+2025-07-25 23:29:58,051 - INFO - Directories created/verified
+2025-07-25 23:29:58,052 - INFO - Initializing components...
+2025-07-25 23:29:58,052 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001E208A87380>
+2025-07-25 23:29:58,053 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001E208A87620>
+2025-07-25 23:29:58,053 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001E208C478C0>
+2025-07-25 23:29:58,054 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 23:29:58,256 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.200.112:5000
+2025-07-25 23:29:58,256 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 23:29:58,261 - INFO -  * Restarting with stat
+2025-07-25 23:30:01,508 - INFO - Starting application...
+2025-07-25 23:30:01,509 - INFO - Directories created/verified
+2025-07-25 23:30:01,510 - INFO - Initializing components...
+2025-07-25 23:30:01,510 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001AE2A067380>
+2025-07-25 23:30:01,511 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001AE2A067620>
+2025-07-25 23:30:01,511 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001AE2A2278C0>
+2025-07-25 23:30:01,511 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 23:30:01,529 - WARNING -  * Debugger is active!
+2025-07-25 23:30:01,553 - INFO -  * Debugger PIN: 347-548-025
+2025-07-25 23:30:29,422 - INFO - 127.0.0.1 - - [25/Jul/2025 23:30:29] "GET / HTTP/1.1" 200 -
+2025-07-25 23:31:33,952 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:33] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-25 23:31:33,956 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:33] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 23:31:34,348 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 23:31:34,521 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:34] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:31:44,225 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:44] "DELETE /documents/2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf HTTP/1.1" 200 -
+2025-07-25 23:31:44,242 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:44] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:31:47,602 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:47] "GET / HTTP/1.1" 200 -
+2025-07-25 23:31:47,635 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 23:31:47,636 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 23:31:47,846 - INFO - 127.0.0.1 - - [25/Jul/2025 23:31:47] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:32:05,250 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-25 23:32:05,251 - INFO - Request method: POST
+2025-07-25 23:32:05,252 - INFO - Request headers: {'Host': '127.0.0.1:5000', 'Connection': 'keep-alive', 'Content-Length': '4109324', 'Sec-Ch-Ua-Platform': '"Windows"', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="136", "Whale";v="4", "Not.A/Brand";v="99"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryCVGDZXlBQvYtjLVa', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Origin': 'http://127.0.0.1:5000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:5000/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-25 23:32:05,253 - INFO - Request content length: 4109324
+2025-07-25 23:32:05,293 - INFO - File object received: <FileStorage: '2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf' ('application/pdf')>
+2025-07-25 23:32:05,293 - INFO - File filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 23:32:05,294 - INFO - File content type: application/pdf
+2025-07-25 23:32:05,294 - INFO - Original filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-25 23:32:05,295 - INFO - Secure filename: 2025web.pdf
+2025-07-25 23:32:05,295 - INFO - File path: documents\2025web.pdf
+2025-07-25 23:32:05,295 - INFO - Starting file save...
+2025-07-25 23:32:05,304 - INFO - File saved successfully
+2025-07-25 23:32:05,304 - INFO - Saved file size: 4109103 bytes
+2025-07-25 23:32:05,305 - INFO - Starting document processing...
+2025-07-25 23:32:15,372 - INFO - Document processing completed. Generated 56 chunks
+2025-07-25 23:32:15,373 - INFO - Adding documents to vector store...
+2025-07-25 23:32:17,472 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:18,656 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:19,931 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:21,010 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:22,448 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:23,792 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:24,253 - INFO - Documents added to vector store successfully
+2025-07-25 23:32:24,254 - INFO - === FILE UPLOAD COMPLETED SUCCESSFULLY: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf ===
+2025-07-25 23:32:24,255 - INFO - 127.0.0.1 - - [25/Jul/2025 23:32:24] "POST /upload HTTP/1.1" 200 -
+2025-07-25 23:32:24,282 - INFO - 127.0.0.1 - - [25/Jul/2025 23:32:24] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:32:39,379 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:32:43,923 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:32:43,943 - INFO - 127.0.0.1 - - [25/Jul/2025 23:32:43] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 23:45:12,114 - INFO - Starting application...
+2025-07-25 23:45:12,115 - INFO - Directories created/verified
+2025-07-25 23:45:12,116 - INFO - Initializing components...
+2025-07-25 23:45:12,117 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x00000199456A7380>
+2025-07-25 23:45:12,118 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x00000199456A7620>
+2025-07-25 23:45:12,118 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x00000199458678C0>
+2025-07-25 23:45:12,119 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 23:45:12,157 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.200.112:5000
+2025-07-25 23:45:12,161 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 23:45:12,166 - INFO -  * Restarting with stat
+2025-07-25 23:45:16,643 - INFO - Starting application...
+2025-07-25 23:45:16,644 - INFO - Directories created/verified
+2025-07-25 23:45:16,645 - INFO - Initializing components...
+2025-07-25 23:45:16,645 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000022D2CEE7380>
+2025-07-25 23:45:16,646 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000022D2CEE7620>
+2025-07-25 23:45:16,646 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000022D2D0A78C0>
+2025-07-25 23:45:16,647 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-25 23:45:16,667 - WARNING -  * Debugger is active!
+2025-07-25 23:45:16,672 - INFO -  * Debugger PIN: 347-548-025
+2025-07-25 23:45:21,171 - INFO - 127.0.0.1 - - [25/Jul/2025 23:45:21] "GET / HTTP/1.1" 200 -
+2025-07-25 23:45:21,583 - INFO - 127.0.0.1 - - [25/Jul/2025 23:45:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 23:45:21,742 - INFO - 127.0.0.1 - - [25/Jul/2025 23:45:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-07-25 23:45:22,097 - INFO - 127.0.0.1 - - [25/Jul/2025 23:45:22] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:46:48,111 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-25 23:46:48,111 - INFO - Request method: POST
+2025-07-25 23:46:48,112 - INFO - Request headers: {'Host': '127.0.0.1:5000', 'Connection': 'keep-alive', 'Content-Length': '39971', 'Sec-Ch-Ua-Platform': '"Windows"', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="136", "Whale";v="4", "Not.A/Brand";v="99"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary9Cj1uJGdiDMBqnxm', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Origin': 'http://127.0.0.1:5000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:5000/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-25 23:46:48,113 - INFO - Request content length: 39971
+2025-07-25 23:46:48,114 - INFO - File object received: <FileStorage: '2025≥‚ ¿Œ±∏¡§√• ∞°¿ÃµÂ∫œ.txt' ('text/plain')>
+2025-07-25 23:46:48,116 - INFO - File filename: 2025≥‚ ¿Œ±∏¡§√• ∞°¿ÃµÂ∫œ.txt
+2025-07-25 23:46:48,117 - INFO - File content type: text/plain
+2025-07-25 23:46:48,117 - INFO - Original filename: 2025≥‚ ¿Œ±∏¡§√• ∞°¿ÃµÂ∫œ.txt
+2025-07-25 23:46:48,118 - INFO - Secure filename: 2025_.txt
+2025-07-25 23:46:48,118 - INFO - File path: documents\2025_.txt
+2025-07-25 23:46:48,118 - INFO - Starting file save...
+2025-07-25 23:46:48,119 - INFO - File saved successfully
+2025-07-25 23:46:48,120 - INFO - Saved file size: 39760 bytes
+2025-07-25 23:46:48,120 - INFO - Starting document processing...
+2025-07-25 23:46:48,132 - INFO - Document processing completed. Generated 27 chunks
+2025-07-25 23:46:48,132 - INFO - Adding documents to vector store...
+2025-07-25 23:46:50,235 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:46:51,826 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:46:53,973 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:46:54,414 - INFO - Documents added to vector store successfully
+2025-07-25 23:46:54,414 - INFO - === FILE UPLOAD COMPLETED SUCCESSFULLY: 2025≥‚ ¿Œ±∏¡§√• ∞°¿ÃµÂ∫œ.txt ===
+2025-07-25 23:46:54,416 - INFO - 127.0.0.1 - - [25/Jul/2025 23:46:54] "POST /upload HTTP/1.1" 200 -
+2025-07-25 23:46:54,462 - INFO - 127.0.0.1 - - [25/Jul/2025 23:46:54] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:47:08,765 - INFO - 127.0.0.1 - - [25/Jul/2025 23:47:08] "DELETE /documents/2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf HTTP/1.1" 200 -
+2025-07-25 23:47:08,777 - INFO - 127.0.0.1 - - [25/Jul/2025 23:47:08] "GET /documents HTTP/1.1" 200 -
+2025-07-25 23:47:15,534 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:47:21,645 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:47:21,658 - INFO - 127.0.0.1 - - [25/Jul/2025 23:47:21] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 23:48:27,586 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:48:34,755 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:48:34,756 - INFO - 127.0.0.1 - - [25/Jul/2025 23:48:34] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 23:50:06,084 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:50:10,789 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:50:10,790 - INFO - 127.0.0.1 - - [25/Jul/2025 23:50:10] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 23:50:30,935 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:50:35,007 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:50:35,008 - INFO - 127.0.0.1 - - [25/Jul/2025 23:50:35] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 23:51:28,393 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:51:32,502 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:51:32,503 - INFO - 127.0.0.1 - - [25/Jul/2025 23:51:32] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-25 23:52:06,314 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-25 23:52:13,286 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:52:13,289 - INFO - 127.0.0.1 - - [25/Jul/2025 23:52:13] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-26 00:01:57,198 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-26 00:02:01,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 00:02:01,505 - INFO - 127.0.0.1 - - [26/Jul/2025 00:02:01] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-26 00:02:16,171 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-26 00:02:20,147 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 00:02:20,154 - INFO - 127.0.0.1 - - [26/Jul/2025 00:02:20] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-26 00:02:36,920 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-26 00:02:38,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 00:02:38,889 - INFO - 127.0.0.1 - - [26/Jul/2025 00:02:38] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-26 00:02:45,192 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-26 00:02:50,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 00:02:50,182 - INFO - 127.0.0.1 - - [26/Jul/2025 00:02:50] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-27 23:40:43,315 - INFO - Starting application...
+2025-07-27 23:40:43,316 - INFO - Directories created/verified
+2025-07-27 23:40:43,316 - INFO - Initializing components...
+2025-07-27 23:40:43,317 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000002577C227380>
+2025-07-27 23:40:43,317 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000002577C227620>
+2025-07-27 23:40:43,318 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000002577C3E78C0>
+2025-07-27 23:40:43,318 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-27 23:40:43,515 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.200.112:5000
+2025-07-27 23:40:43,515 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 23:40:43,518 - INFO -  * Restarting with stat
+2025-07-27 23:40:47,874 - INFO - Starting application...
+2025-07-27 23:40:47,875 - INFO - Directories created/verified
+2025-07-27 23:40:47,876 - INFO - Initializing components...
+2025-07-27 23:40:47,876 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x0000022511A37380>
+2025-07-27 23:40:47,877 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x0000022511A37620>
+2025-07-27 23:40:47,877 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x0000022511BF78C0>
+2025-07-27 23:40:47,878 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-27 23:40:47,914 - WARNING -  * Debugger is active!
+2025-07-27 23:40:47,921 - INFO -  * Debugger PIN: 347-548-025
+2025-07-27 23:41:17,038 - INFO - 127.0.0.1 - - [27/Jul/2025 23:41:17] "GET / HTTP/1.1" 200 -
+2025-07-27 23:41:17,512 - INFO - 127.0.0.1 - - [27/Jul/2025 23:41:17] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-27 23:41:17,561 - INFO - 127.0.0.1 - - [27/Jul/2025 23:41:17] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-27 23:41:17,844 - INFO - 127.0.0.1 - - [27/Jul/2025 23:41:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 23:41:18,059 - INFO - 127.0.0.1 - - [27/Jul/2025 23:41:18] "GET /documents HTTP/1.1" 200 -
+2025-07-27 23:41:32,634 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-27 23:41:40,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 23:41:40,212 - INFO - 127.0.0.1 - - [27/Jul/2025 23:41:40] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-28 21:12:54,584 - INFO - Starting application...
+2025-07-28 21:12:54,721 - INFO - Directories created/verified
+2025-07-28 21:12:54,722 - INFO - Initializing components...
+2025-07-28 21:12:54,722 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001F5947BB770>
+2025-07-28 21:12:54,723 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001F5947BBA10>
+2025-07-28 21:12:54,724 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001F59497BCB0>
+2025-07-28 21:12:54,726 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-28 21:12:57,635 - INFO - Starting application...
+2025-07-28 21:12:57,636 - INFO - Directories created/verified
+2025-07-28 21:12:57,636 - INFO - Initializing components...
+2025-07-28 21:12:57,637 - INFO - Document processor: <utils.document_processor.DocumentProcessor object at 0x000001D7C42DB770>
+2025-07-28 21:12:57,637 - INFO - Vector store: <utils.vector_store.VectorStore object at 0x000001D7C42DBA10>
+2025-07-28 21:12:57,637 - INFO - Chat handler: <utils.chat_handler.ChatHandler object at 0x000001D7C449BCB0>
+2025-07-28 21:12:57,638 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-07-28 21:12:57,649 - WARNING -  * Debugger is active!
+2025-07-28 21:12:57,652 - INFO -  * Debugger PIN: 459-298-580
+2025-07-28 21:14:40,460 - INFO - 127.0.0.1 - - [28/Jul/2025 21:14:40] "GET / HTTP/1.1" 200 -
+2025-07-28 21:14:40,706 - INFO - 127.0.0.1 - - [28/Jul/2025 21:14:40] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-28 21:14:40,779 - INFO - 127.0.0.1 - - [28/Jul/2025 21:14:40] "GET /static/script.js HTTP/1.1" 200 -
+2025-07-28 21:14:41,342 - INFO - 127.0.0.1 - - [28/Jul/2025 21:14:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-28 21:14:47,969 - INFO - 127.0.0.1 - - [28/Jul/2025 21:14:47] "GET /documents HTTP/1.1" 200 -
+2025-07-28 21:14:51,562 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-28 21:14:51,563 - INFO - Request method: POST
+2025-07-28 21:14:51,564 - INFO - Request headers: {'Host': '127.0.0.1:5000', 'Connection': 'keep-alive', 'Content-Length': '5450507', 'Sec-Ch-Ua-Platform': '"Windows"', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="136", "Whale";v="4", "Not.A/Brand";v="99"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary64kBFotCHoyoZmp1', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Origin': 'http://127.0.0.1:5000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:5000/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-28 21:14:51,565 - INFO - Request content length: 5450507
+2025-07-28 21:14:51,668 - INFO - File object received: <FileStorage: '2024 »∏∞ËΩ«π´(π–æÁΩ√).pdf' ('application/pdf')>
+2025-07-28 21:14:51,670 - INFO - File filename: 2024 »∏∞ËΩ«π´(π–æÁΩ√).pdf
+2025-07-28 21:14:51,671 - INFO - File content type: application/pdf
+2025-07-28 21:14:51,672 - INFO - Original filename: 2024 »∏∞ËΩ«π´(π–æÁΩ√).pdf
+2025-07-28 21:14:51,673 - INFO - Secure filename: 2024_.pdf
+2025-07-28 21:14:51,673 - INFO - File path: documents\2024_.pdf
+2025-07-28 21:14:51,674 - INFO - Starting file save...
+2025-07-28 21:14:51,706 - INFO - File saved successfully
+2025-07-28 21:14:51,707 - INFO - Saved file size: 5450296 bytes
+2025-07-28 21:14:51,708 - INFO - Starting document processing...
+2025-07-28 21:14:51,808 - ERROR - === UPLOAD ERROR OCCURRED ===
+2025-07-28 21:14:51,809 - ERROR - Error type: Exception
+2025-07-28 21:14:51,809 - ERROR - Error message: Error reading PDF file: PDF too large: 168 pages (max 50)
+2025-07-28 21:14:51,929 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\SynologyDrive\ragchatbot_chdb\utils\document_processor.py", line 39, in _extract_pdf_text
+    raise Exception(f"PDF too large: {total_pages} pages (max 50)")
+Exception: PDF too large: 168 pages (max 50)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SynologyDrive\ragchatbot_chdb\app.py", line 82, in upload_file
+    chunks = doc_processor.process_document(filepath)
+  File "D:\SynologyDrive\ragchatbot_chdb\utils\document_processor.py", line 16, in process_document
+    text = self._extract_text(file_path)
+  File "D:\SynologyDrive\ragchatbot_chdb\utils\document_processor.py", line 24, in _extract_text
+    return self._extract_pdf_text(file_path)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\SynologyDrive\ragchatbot_chdb\utils\document_processor.py", line 48, in _extract_pdf_text
+    raise Exception(f"Error reading PDF file: {str(e)}")
+Exception: Error reading PDF file: PDF too large: 168 pages (max 50)
+
+2025-07-28 21:14:51,930 - ERROR - === UPLOAD ERROR END ===
+2025-07-28 21:14:51,933 - INFO - 127.0.0.1 - - [28/Jul/2025 21:14:51] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-28 21:15:05,471 - INFO - === FILE UPLOAD REQUEST STARTED ===
+2025-07-28 21:15:05,471 - INFO - Request method: POST
+2025-07-28 21:15:05,472 - INFO - Request headers: {'Host': '127.0.0.1:5000', 'Connection': 'keep-alive', 'Content-Length': '4109324', 'Sec-Ch-Ua-Platform': '"Windows"', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="136", "Whale";v="4", "Not.A/Brand";v="99"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryt5Z1MaFOESzjgwpH', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Origin': 'http://127.0.0.1:5000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:5000/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2025-07-28 21:15:05,473 - INFO - Request content length: 4109324
+2025-07-28 21:15:05,515 - INFO - File object received: <FileStorage: '2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf' ('application/pdf')>
+2025-07-28 21:15:05,516 - INFO - File filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-28 21:15:05,517 - INFO - File content type: application/pdf
+2025-07-28 21:15:05,517 - INFO - Original filename: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf
+2025-07-28 21:15:05,518 - INFO - Secure filename: 2025web.pdf
+2025-07-28 21:15:05,519 - INFO - File path: documents\2025web.pdf
+2025-07-28 21:15:05,520 - INFO - Starting file save...
+2025-07-28 21:15:05,542 - INFO - File saved successfully
+2025-07-28 21:15:05,543 - INFO - Saved file size: 4109103 bytes
+2025-07-28 21:15:05,544 - INFO - Starting document processing...
+2025-07-28 21:15:28,591 - INFO - Document processing completed. Generated 56 chunks
+2025-07-28 21:15:28,592 - INFO - Adding documents to vector store...
+2025-07-28 21:15:30,862 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:15:32,242 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:15:33,221 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:15:34,309 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:15:35,678 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:15:36,663 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:15:37,387 - INFO - Documents added to vector store successfully
+2025-07-28 21:15:37,387 - INFO - === FILE UPLOAD COMPLETED SUCCESSFULLY: 2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf ===
+2025-07-28 21:15:37,389 - INFO - 127.0.0.1 - - [28/Jul/2025 21:15:37] "POST /upload HTTP/1.1" 200 -
+2025-07-28 21:15:37,403 - INFO - 127.0.0.1 - - [28/Jul/2025 21:15:37] "GET /documents HTTP/1.1" 200 -
+2025-07-28 21:16:53,054 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:16:58,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 21:16:58,290 - INFO - 127.0.0.1 - - [28/Jul/2025 21:16:58] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-28 21:17:13,727 - INFO - 127.0.0.1 - - [28/Jul/2025 21:17:13] "DELETE /documents/2025≥‚+¿Œ±∏¡§√•+∞°¿ÃµÂ∫œ(web).pdf HTTP/1.1" 200 -
+2025-07-28 21:17:13,737 - INFO - 127.0.0.1 - - [28/Jul/2025 21:17:13] "GET /documents HTTP/1.1" 200 -
+2025-07-28 21:17:30,227 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:17:36,982 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 21:17:36,986 - INFO - 127.0.0.1 - - [28/Jul/2025 21:17:36] "POST /chat-stream HTTP/1.1" 200 -
+2025-07-28 21:17:55,825 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-28 21:18:02,173 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 21:18:02,175 - INFO - 127.0.0.1 - - [28/Jul/2025 21:18:02] "POST /chat-stream HTTP/1.1" 200 -
