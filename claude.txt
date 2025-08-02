@@ -1,0 +1,85 @@
+# 밀양시 AI 어시스턴트 챗봇 프로젝트 요약
+
+## 프로젝트 개요
+- Flask 기반 RAG(Retrieval-Augmented Generation) 챗봇
+- 문서 업로드 및 질의응답 기능
+- OpenAI API와 ChromaDB 벡터 데이터베이스 활용
+- 밀양시 브랜딩이 적용된 웹 인터페이스
+
+## 핵심 기능
+1. PDF/TXT 파일 업로드 및 처리
+2. 문서 내용 기반 질의응답
+3. 세션별 대화 기록 관리
+4. 벡터 검색을 통한 관련 문서 검색
+5. 마크다운 형식의 응답 생성
+
+## 기술 스택
+- **Backend**: Python Flask
+- **벡터 DB**: ChromaDB
+- **AI API**: OpenAI (text-embedding-ada-002, gpt-3.5-turbo)
+- **Frontend**: Bootstrap 5, JavaScript, CSS
+- **문서 처리**: PyPDF2, LangChain TextSplitter
+
+## 디렉토리 구조
+```
+chatbot_test/
+├── app.py                     # Flask 메인 애플리케이션
+├── requirements.txt           # Python 패키지 의존성
+├── CLAUDE.md                  # 프로젝트 가이드
+├── utils/                     # 비즈니스 로직 모듈
+│   ├── document_processor.py  # 문서 처리 및 텍스트 추출
+│   ├── vector_store.py        # ChromaDB 벡터 데이터베이스 관리
+│   └── chat_handler.py        # OpenAI API 및 RAG 로직
+├── templates/index.html       # 웹 인터페이스
+├── static/                    # CSS, JavaScript 파일
+├── documents/                 # 업로드된 문서 저장소
+└── data/                      # ChromaDB 데이터베이스 파일
+```
+
+## 설치 및 실행 방법
+1. 가상환경 생성: `python -m venv .venv`
+2. 가상환경 활성화: `.venv\Scripts\activate`
+3. 의존성 설치: `pip install -r requirements.txt`
+4. 환경변수 설정: `.env` 파일에 `OPENAI_API_KEY` 추가
+5. 실행: `python app.py`
+6. 접속: http://localhost:5000
+
+## 주요 설정값
+- 최대 파일 크기: 16MB
+- 지원 파일 형식: PDF, TXT
+- 문서 청킹: 1000자, 200자 중복
+- 채팅 컨텍스트: 최근 10개 대화 턴
+- 벡터 검색: 코사인 유사도
+
+## 시스템 아키텍처 플로우
+1. 문서 업로드 → DocumentProcessor → VectorStore → ChromaDB 저장
+2. 사용자 질문 → 벡터 검색 → 관련 문서 추출 → OpenAI GPT → 응답 생성
+3. 세션 관리를 통한 대화 기록 유지
+
+## UI/UX 특징
+- 밀양시 브랜딩 (헤더, 아이콘)
+- 드래그 앤 드롭 파일 업로드
+- 실시간 채팅 인터페이스
+- 마크다운 렌더링 지원
+- 반응형 모바일 친화적 디자인
+- Noto Sans KR 한글 폰트 적용
+
+## 보안 및 안전성
+- 파일명 보안 처리
+- UTF-8/CP949 인코딩 지원
+- 세션 기반 격리
+- XSS 방지 (DOMPurify 사용)
+- 최대 파일 크기 제한
+
+## 현재 상태
+- 2024_.pdf 문서가 업로드되어 벡터화 완료
+- ChromaDB에 문서 데이터 저장됨
+- 웹 애플리케이션 실행 준비 완료
+
+## 개발 환경
+- Windows 플랫폼
+- Python 가상환경 사용
+- Git 저장소 미초기화 상태
+
+생성일: 2025-07-22
+위치: E:\Project_AI\chatbot_test\claude.txt
